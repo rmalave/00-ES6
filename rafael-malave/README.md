@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Everywhere I needed to change const to let was because const variables should be constant, javascript throws an error if a const variable is being reassigned. This does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered.Also, constants need to be initialized with a value. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Replacing concatenations was pretty simple. I will defnitely use template literals when I can as it is a much easier and readable way of concatenating.
